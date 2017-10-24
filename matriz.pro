@@ -1,4 +1,4 @@
-update=Sun 15 Oct 2017 02:01:51 PM ART
+update=Tue 24 Oct 2017 06:59:40 PM ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,6 +64,8 @@ LibName34=leds
 LibName35=matriz8x8
 LibName36=library/power
 LibName37=library/device
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -74,5 +76,3 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
