@@ -77,12 +77,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C72CF0
-P 4450 3550
-F 0 "D?" H 4450 3650 50  0000 C CNN
-F 1 "LED" H 4450 3450 50  0000 C CNN
-F 2 "" H 4450 3550 60  0001 C CNN
-F 3 "" H 4450 3550 60  0001 C CNN
-	1    4450 3550
+P 4450 3500
+F 0 "D?" H 4450 3600 50  0000 C CNN
+F 1 "LED" H 4450 3400 50  0000 C CNN
+F 2 "" H 4450 3500 60  0001 C CNN
+F 3 "" H 4450 3500 60  0001 C CNN
+	1    4450 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -99,12 +99,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C72DAF
-P 4450 3950
-F 0 "D?" H 4450 4050 50  0000 C CNN
-F 1 "LED" H 4450 3850 50  0000 C CNN
-F 2 "" H 4450 3950 60  0001 C CNN
-F 3 "" H 4450 3950 60  0001 C CNN
-	1    4450 3950
+P 4450 3900
+F 0 "D?" H 4450 4000 50  0000 C CNN
+F 1 "LED" H 4450 3800 50  0000 C CNN
+F 2 "" H 4450 3900 60  0001 C CNN
+F 3 "" H 4450 3900 60  0001 C CNN
+	1    4450 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -165,12 +165,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C732CE
-P 3950 3550
-F 0 "D?" H 3950 3650 50  0000 C CNN
-F 1 "LED" H 3950 3450 50  0000 C CNN
-F 2 "" H 3950 3550 60  0001 C CNN
-F 3 "" H 3950 3550 60  0001 C CNN
-	1    3950 3550
+P 3950 3500
+F 0 "D?" H 3950 3600 50  0000 C CNN
+F 1 "LED" H 3950 3400 50  0000 C CNN
+F 2 "" H 3950 3500 60  0001 C CNN
+F 3 "" H 3950 3500 60  0001 C CNN
+	1    3950 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -187,12 +187,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C732DC
-P 3950 3950
-F 0 "D?" H 3950 4050 50  0000 C CNN
-F 1 "LED" H 3950 3850 50  0000 C CNN
-F 2 "" H 3950 3950 60  0001 C CNN
-F 3 "" H 3950 3950 60  0001 C CNN
-	1    3950 3950
+P 3950 3900
+F 0 "D?" H 3950 4000 50  0000 C CNN
+F 1 "LED" H 3950 3800 50  0000 C CNN
+F 2 "" H 3950 3900 60  0001 C CNN
+F 3 "" H 3950 3900 60  0001 C CNN
+	1    3950 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -253,12 +253,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C73A51
-P 3450 3550
-F 0 "D?" H 3450 3650 50  0000 C CNN
-F 1 "LED" H 3450 3450 50  0000 C CNN
-F 2 "" H 3450 3550 60  0001 C CNN
-F 3 "" H 3450 3550 60  0001 C CNN
-	1    3450 3550
+P 3450 3500
+F 0 "D?" H 3450 3600 50  0000 C CNN
+F 1 "LED" H 3450 3400 50  0000 C CNN
+F 2 "" H 3450 3500 60  0001 C CNN
+F 3 "" H 3450 3500 60  0001 C CNN
+	1    3450 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -275,12 +275,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C73A5F
-P 3450 3950
-F 0 "D?" H 3450 4050 50  0000 C CNN
-F 1 "LED" H 3450 3850 50  0000 C CNN
-F 2 "" H 3450 3950 60  0001 C CNN
-F 3 "" H 3450 3950 60  0001 C CNN
-	1    3450 3950
+P 3450 3900
+F 0 "D?" H 3450 4000 50  0000 C CNN
+F 1 "LED" H 3450 3800 50  0000 C CNN
+F 2 "" H 3450 3900 60  0001 C CNN
+F 3 "" H 3450 3900 60  0001 C CNN
+	1    3450 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -341,12 +341,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C73A93
-P 2950 3550
-F 0 "D?" H 2950 3650 50  0000 C CNN
-F 1 "LED" H 2950 3450 50  0000 C CNN
-F 2 "" H 2950 3550 60  0001 C CNN
-F 3 "" H 2950 3550 60  0001 C CNN
-	1    2950 3550
+P 2950 3500
+F 0 "D?" H 2950 3600 50  0000 C CNN
+F 1 "LED" H 2950 3400 50  0000 C CNN
+F 2 "" H 2950 3500 60  0001 C CNN
+F 3 "" H 2950 3500 60  0001 C CNN
+	1    2950 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -363,12 +363,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C73AA1
-P 2950 3950
-F 0 "D?" H 2950 4050 50  0000 C CNN
-F 1 "LED" H 2950 3850 50  0000 C CNN
-F 2 "" H 2950 3950 60  0001 C CNN
-F 3 "" H 2950 3950 60  0001 C CNN
-	1    2950 3950
+P 2950 3900
+F 0 "D?" H 2950 4000 50  0000 C CNN
+F 1 "LED" H 2950 3800 50  0000 C CNN
+F 2 "" H 2950 3900 60  0001 C CNN
+F 3 "" H 2950 3900 60  0001 C CNN
+	1    2950 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -429,12 +429,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C75704
-P 2450 3550
-F 0 "D?" H 2450 3650 50  0000 C CNN
-F 1 "LED" H 2450 3450 50  0000 C CNN
-F 2 "" H 2450 3550 60  0001 C CNN
-F 3 "" H 2450 3550 60  0001 C CNN
-	1    2450 3550
+P 2450 3500
+F 0 "D?" H 2450 3600 50  0000 C CNN
+F 1 "LED" H 2450 3400 50  0000 C CNN
+F 2 "" H 2450 3500 60  0001 C CNN
+F 3 "" H 2450 3500 60  0001 C CNN
+	1    2450 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -451,12 +451,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C75712
-P 2450 3950
-F 0 "D?" H 2450 4050 50  0000 C CNN
-F 1 "LED" H 2450 3850 50  0000 C CNN
-F 2 "" H 2450 3950 60  0001 C CNN
-F 3 "" H 2450 3950 60  0001 C CNN
-	1    2450 3950
+P 2450 3900
+F 0 "D?" H 2450 4000 50  0000 C CNN
+F 1 "LED" H 2450 3800 50  0000 C CNN
+F 2 "" H 2450 3900 60  0001 C CNN
+F 3 "" H 2450 3900 60  0001 C CNN
+	1    2450 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -517,12 +517,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C75746
-P 1950 3550
-F 0 "D?" H 1950 3650 50  0000 C CNN
-F 1 "LED" H 1950 3450 50  0000 C CNN
-F 2 "" H 1950 3550 60  0001 C CNN
-F 3 "" H 1950 3550 60  0001 C CNN
-	1    1950 3550
+P 1950 3500
+F 0 "D?" H 1950 3600 50  0000 C CNN
+F 1 "LED" H 1950 3400 50  0000 C CNN
+F 2 "" H 1950 3500 60  0001 C CNN
+F 3 "" H 1950 3500 60  0001 C CNN
+	1    1950 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -539,12 +539,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C75754
-P 1950 3950
-F 0 "D?" H 1950 4050 50  0000 C CNN
-F 1 "LED" H 1950 3850 50  0000 C CNN
-F 2 "" H 1950 3950 60  0001 C CNN
-F 3 "" H 1950 3950 60  0001 C CNN
-	1    1950 3950
+P 1950 3900
+F 0 "D?" H 1950 4000 50  0000 C CNN
+F 1 "LED" H 1950 3800 50  0000 C CNN
+F 2 "" H 1950 3900 60  0001 C CNN
+F 3 "" H 1950 3900 60  0001 C CNN
+	1    1950 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -605,12 +605,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C75790
-P 1450 3550
-F 0 "D?" H 1450 3650 50  0000 C CNN
-F 1 "LED" H 1450 3450 50  0000 C CNN
-F 2 "" H 1450 3550 60  0001 C CNN
-F 3 "" H 1450 3550 60  0001 C CNN
-	1    1450 3550
+P 1450 3500
+F 0 "D?" H 1450 3600 50  0000 C CNN
+F 1 "LED" H 1450 3400 50  0000 C CNN
+F 2 "" H 1450 3500 60  0001 C CNN
+F 3 "" H 1450 3500 60  0001 C CNN
+	1    1450 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -627,12 +627,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C7579E
-P 1450 3950
-F 0 "D?" H 1450 4050 50  0000 C CNN
-F 1 "LED" H 1450 3850 50  0000 C CNN
-F 2 "" H 1450 3950 60  0001 C CNN
-F 3 "" H 1450 3950 60  0001 C CNN
-	1    1450 3950
+P 1450 3900
+F 0 "D?" H 1450 4000 50  0000 C CNN
+F 1 "LED" H 1450 3800 50  0000 C CNN
+F 2 "" H 1450 3900 60  0001 C CNN
+F 3 "" H 1450 3900 60  0001 C CNN
+	1    1450 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -693,12 +693,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C757D2
-P 950 3550
-F 0 "D?" H 950 3650 50  0000 C CNN
-F 1 "LED" H 950 3450 50  0000 C CNN
-F 2 "" H 950 3550 60  0001 C CNN
-F 3 "" H 950 3550 60  0001 C CNN
-	1    950  3550
+P 950 3500
+F 0 "D?" H 950 3600 50  0000 C CNN
+F 1 "LED" H 950 3400 50  0000 C CNN
+F 2 "" H 950 3500 60  0001 C CNN
+F 3 "" H 950 3500 60  0001 C CNN
+	1    950  3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -715,12 +715,12 @@ $EndComp
 $Comp
 L LED D?
 U 1 1 59C757E0
-P 950 3950
-F 0 "D?" H 950 4050 50  0000 C CNN
-F 1 "LED" H 950 3850 50  0000 C CNN
-F 2 "" H 950 3950 60  0001 C CNN
-F 3 "" H 950 3950 60  0001 C CNN
-	1    950  3950
+P 950 3900
+F 0 "D?" H 950 4000 50  0000 C CNN
+F 1 "LED" H 950 3800 50  0000 C CNN
+F 2 "" H 950 3900 60  0001 C CNN
+F 3 "" H 950 3900 60  0001 C CNN
+	1    950  3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -748,12 +748,12 @@ $EndComp
 $Comp
 L +5V #PWR?
 U 1 1 59C7EB42
-P 9900 5100
-F 0 "#PWR?" H 9900 4950 50  0001 C CNN
-F 1 "+5V" H 9900 5240 50  0000 C CNN
-F 2 "" H 9900 5100 50  0001 C CNN
-F 3 "" H 9900 5100 50  0001 C CNN
-	1    9900 5100
+P 9900 5150
+F 0 "#PWR?" H 9900 5000 50  0001 C CNN
+F 1 "+5V" H 9900 5290 50  0000 C CNN
+F 2 "" H 9900 5150 50  0001 C CNN
+F 3 "" H 9900 5150 50  0001 C CNN
+	1    9900 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -851,6 +851,28 @@ F 3 "" H 8100 3800 60  0001 C CNN
 	1    7900 3400
 	1    0    0    -1  
 $EndComp
+Text HLabel 1150 4150 3    60   Input ~ 0
+C0
+Text HLabel 1650 4150 3    60   Input ~ 0
+C1
+Text HLabel 2150 4150 3    60   Input ~ 0
+C2
+Text HLabel 2650 4150 3    60   Input ~ 0
+C3
+Text HLabel 3150 4150 3    60   Input ~ 0
+C4
+Text HLabel 4150 4150 3    60   Input ~ 0
+C6
+Text HLabel 3650 4150 3    60   Input ~ 0
+C5
+Text HLabel 4650 4150 3    60   Input ~ 0
+C7
+Text HLabel 4850 3700 2    60   Input ~ 0
+F7
+Text HLabel 4850 3350 2    60   Input ~ 0
+F6
+Text HLabel 4850 2950 2    60   Input ~ 0
+F5
 Wire Wire Line
 	9500 5400 8250 5400
 Connection ~ 9300 4900
@@ -866,44 +888,36 @@ Wire Wire Line
 	7050 5600 6250 5600
 Wire Wire Line
 	7050 5100 6250 5100
-Connection ~ 4650 3950
-Connection ~ 4150 3950
-Connection ~ 4150 3550
+Connection ~ 4650 3900
+Connection ~ 4150 3900
+Connection ~ 4150 3500
 Connection ~ 4150 3150
 Connection ~ 4150 2750
 Connection ~ 4150 2350
 Connection ~ 4150 1950
 Connection ~ 4150 1550
-Wire Wire Line
-	4150 4250 4150 1150
-Connection ~ 3650 3950
-Connection ~ 3650 3550
+Connection ~ 3650 3900
+Connection ~ 3650 3500
 Connection ~ 3650 3150
 Connection ~ 3650 2750
 Connection ~ 3650 2350
 Connection ~ 3650 1950
 Connection ~ 3650 1550
-Wire Wire Line
-	3650 4250 3650 1150
-Connection ~ 3150 3950
-Connection ~ 3150 3550
+Connection ~ 3150 3900
+Connection ~ 3150 3500
 Connection ~ 3150 3150
 Connection ~ 3150 2750
 Connection ~ 3150 2350
 Connection ~ 3150 1950
 Connection ~ 3150 1550
-Wire Wire Line
-	3150 4250 3150 1150
-Connection ~ 2650 3950
-Connection ~ 2150 3950
+Connection ~ 2650 3900
+Connection ~ 2150 3900
 Connection ~ 4650 1550
 Connection ~ 4650 1950
 Connection ~ 4650 2350
 Connection ~ 4650 2750
 Connection ~ 4650 3150
-Connection ~ 4650 3550
-Wire Wire Line
-	4650 4250 4650 1150
+Connection ~ 4650 3500
 Connection ~ 4250 2150
 Wire Wire Line
 	4250 2350 4250 2150
@@ -958,24 +972,24 @@ Wire Wire Line
 Connection ~ 4250 2950
 Wire Wire Line
 	4250 3150 4250 2950
-Connection ~ 3250 3400
+Connection ~ 3250 3350
 Wire Wire Line
-	3250 3550 3250 3400
-Connection ~ 3750 3400
+	3250 3500 3250 3350
+Connection ~ 3750 3350
 Wire Wire Line
-	3750 3550 3750 3400
-Connection ~ 4250 3400
+	3750 3500 3750 3350
+Connection ~ 4250 3350
 Wire Wire Line
-	4250 3550 4250 3400
-Connection ~ 4250 3750
+	4250 3500 4250 3350
+Connection ~ 4250 3700
 Wire Wire Line
-	4250 3950 4250 3750
-Connection ~ 3750 3750
+	4250 3900 4250 3700
+Connection ~ 3750 3700
 Wire Wire Line
-	3750 3950 3750 3750
-Connection ~ 3250 3750
+	3750 3900 3750 3700
+Connection ~ 3250 3700
 Wire Wire Line
-	3250 3950 3250 3750
+	3250 3900 3250 3700
 Connection ~ 2750 950 
 Wire Wire Line
 	2750 1150 2750 950 
@@ -994,12 +1008,12 @@ Wire Wire Line
 Connection ~ 2750 2950
 Wire Wire Line
 	2750 3150 2750 2950
-Connection ~ 2750 3400
+Connection ~ 2750 3350
 Wire Wire Line
-	2750 3550 2750 3400
-Connection ~ 2750 3750
+	2750 3500 2750 3350
+Connection ~ 2750 3700
 Wire Wire Line
-	2750 3950 2750 3750
+	2750 3900 2750 3700
 Connection ~ 2250 950 
 Wire Wire Line
 	2250 1150 2250 950 
@@ -1018,9 +1032,9 @@ Wire Wire Line
 Connection ~ 2250 2950
 Wire Wire Line
 	2250 3150 2250 2950
-Connection ~ 2250 3400
+Connection ~ 2250 3350
 Wire Wire Line
-	2250 3550 2250 3400
+	2250 3500 2250 3350
 Connection ~ 1750 2550
 Wire Wire Line
 	1750 2750 1750 2550
@@ -1072,45 +1086,39 @@ Connection ~ 2650 2350
 Connection ~ 2650 1550
 Connection ~ 2650 2750
 Connection ~ 2650 3150
-Connection ~ 2650 3550
-Wire Wire Line
-	2650 4250 2650 1150
-Connection ~ 2150 3550
+Connection ~ 2650 3500
+Connection ~ 2150 3500
 Connection ~ 2150 3150
 Connection ~ 2150 2750
 Connection ~ 2150 2350
 Connection ~ 2150 1950
 Connection ~ 2150 1550
+Connection ~ 2250 3700
 Wire Wire Line
-	2150 4250 2150 1150
-Connection ~ 2250 3750
+	2250 3900 2250 3700
+Connection ~ 1750 3700
 Wire Wire Line
-	2250 3950 2250 3750
-Connection ~ 1750 3750
+	1750 3900 1750 3700
+Connection ~ 1750 3350
 Wire Wire Line
-	1750 3950 1750 3750
-Connection ~ 1750 3400
-Wire Wire Line
-	1750 3550 1750 3400
+	1750 3500 1750 3350
 Connection ~ 1750 2950
 Wire Wire Line
 	1750 3150 1750 2950
 Connection ~ 1250 2950
 Wire Wire Line
 	1250 3150 1250 2950
-Connection ~ 1650 3950
-Connection ~ 1650 3550
+Connection ~ 1650 3900
+Connection ~ 1650 3500
 Connection ~ 1650 3150
 Connection ~ 1650 2750
 Connection ~ 1650 2350
 Connection ~ 1650 1950
 Connection ~ 1650 1550
 Wire Wire Line
-	1650 4250 1650 1150
+	750  3700 4850 3700
 Wire Wire Line
-	750  3750 4850 3750
-Wire Wire Line
-	750  3950 750  3750
+	750  3900 750  3700
 Wire Wire Line
 	750  2550 4850 2550
 Wire Wire Line
@@ -1119,25 +1127,22 @@ Wire Wire Line
 	750  2950 4850 2950
 Wire Wire Line
 	750  3150 750  2950
-Connection ~ 1250 3400
+Connection ~ 1250 3350
 Wire Wire Line
-	1250 3550 1250 3400
-Connection ~ 1250 3800
+	1250 3500 1250 3350
 Wire Wire Line
-	1250 3950 1250 3800
+	1250 3700 1250 3900
 Wire Wire Line
-	750  3400 4850 3400
+	750  3350 4850 3350
 Wire Wire Line
-	750  3550 750  3400
-Connection ~ 1150 3950
-Connection ~ 1150 3550
+	750  3500 750  3350
+Connection ~ 1150 3900
+Connection ~ 1150 3500
 Connection ~ 1150 3150
 Connection ~ 1150 2750
 Connection ~ 1150 2350
 Connection ~ 1150 1950
 Connection ~ 1150 1550
-Wire Wire Line
-	1150 4250 1150 1150
 Wire Wire Line
 	7050 5200 6950 5200
 Wire Wire Line
@@ -1190,4 +1195,31 @@ Wire Wire Line
 Connection ~ 9900 5300
 Connection ~ 9300 5300
 Connection ~ 9050 5300
+Text HLabel 4850 950  2    60   Input ~ 0
+F0
+Text HLabel 4850 1350 2    60   Input ~ 0
+F1
+Text HLabel 4850 2150 2    60   Input ~ 0
+F3
+Text HLabel 4850 1750 2    60   Input ~ 0
+F2
+Text HLabel 4850 2550 2    60   Input ~ 0
+F4
+Wire Wire Line
+	1150 1150 1150 4150
+Wire Wire Line
+	1650 1150 1650 4150
+Connection ~ 1250 3700
+Wire Wire Line
+	2150 1150 2150 4150
+Wire Wire Line
+	2650 1150 2650 4150
+Wire Wire Line
+	3150 1150 3150 4150
+Wire Wire Line
+	3650 1150 3650 4150
+Wire Wire Line
+	4150 1150 4150 4150
+Wire Wire Line
+	4650 1150 4650 4150
 $EndSCHEMATC
