@@ -1,9 +1,39 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:max
 LIBS:leds
 LIBS:matriz8x8
-LIBS:power
-LIBS:device
 LIBS:wemosD1
 LIBS:ESP8266
 LIBS:matriz-cache
@@ -44,17 +74,6 @@ F 3 "" H 10350 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CP2
-U 1 1 59C7ECB1
-P 9750 1800
-F 0 "CP2" H 9775 1900 50  0000 L CNN
-F 1 "0.1µF" H 9775 1700 50  0000 L CNN
-F 2 "" H 9788 1650 50  0001 C CNN
-F 3 "" H 9750 1800 50  0001 C CNN
-	1    9750 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR03
 U 1 1 59C7F084
 P 10150 1650
@@ -64,17 +83,6 @@ F 2 "" H 10150 1650 50  0001 C CNN
 F 3 "" H 10150 1650 50  0001 C CNN
 	1    10150 1650
 	1    0    0    -1  
-$EndComp
-$Comp
-L R 24kOhm1
-U 1 1 59C803C2
-P 10100 2050
-F 0 "24kOhm1" V 10180 2050 50  0000 C CNN
-F 1 "R" V 10100 2050 50  0000 C CNN
-F 2 "" V 10030 2050 50  0001 C CNN
-F 3 "" H 10100 2050 50  0001 C CNN
-	1    10100 2050
-	0    1    1    0   
 $EndComp
 Text GLabel 9050 1450 2    60   Input ~ 0
 SerialDataOut
@@ -86,17 +94,6 @@ Text HLabel 7400 1650 0    60   Input ~ 0
 C4
 Text HLabel 7400 2350 0    60   Input ~ 0
 C5
-$Comp
-L CP1 10µF1
-U 1 1 59E154D8
-P 9500 1800
-F 0 "10µF1" H 9525 1900 50  0000 L CNN
-F 1 "CP1" H 9525 1700 50  0000 L CNN
-F 2 "" H 9500 1800 50  0001 C CNN
-F 3 "" H 9500 1800 50  0001 C CNN
-	1    9500 1800
-	-1   0    0    1   
-$EndComp
 Text HLabel 7400 2150 0    60   Input ~ 0
 C7
 Text HLabel 7400 1850 0    60   Input ~ 0
@@ -164,15 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 2150 8800 2150
 Wire Wire Line
-	8800 1850 8700 1850
-Wire Wire Line
-	8800 1750 8700 1750
-Wire Wire Line
-	8800 1650 8700 1650
-Wire Wire Line
 	8700 2550 9250 2550
-Wire Wire Line
-	8800 1550 8700 1550
 Wire Wire Line
 	7500 2350 7400 2350
 Wire Wire Line
@@ -222,8 +211,6 @@ F 3 "" H 6450 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 6000 9150 6000
-Wire Wire Line
 	6700 1750 6700 2250
 Wire Wire Line
 	6700 5600 6700 6000
@@ -260,4 +247,45 @@ F 3 "" H 6700 2250 50  0001 C CNN
 	1    6700 2250
 	1    0    0    -1  
 $EndComp
+$Comp
+L C CP2
+U 1 1 59FFA831
+P 9750 1800
+F 0 "CP2" H 9775 1900 50  0000 L CNN
+F 1 "0.1µF" H 9775 1700 50  0000 L CNN
+F 2 "" H 9788 1650 50  0001 C CNN
+F 3 "" H 9750 1800 50  0001 C CNN
+	1    9750 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP1 CP1
+U 1 1 59FFA866
+P 9500 1800
+F 0 "CP1" H 9525 1900 50  0000 L CNN
+F 1 "10µF" H 9525 1700 50  0000 L CNN
+F 2 "" H 9500 1800 50  0001 C CNN
+F 3 "" H 9500 1800 50  0001 C CNN
+	1    9500 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R
+U 1 1 59FFAE64
+P 10100 2050
+F 0 "R" V 9950 2050 50  0000 C TNN
+F 1 "24kOhm" V 9900 2050 50  0000 C CNN
+F 2 "" V 10030 2050 50  0001 C CNN
+F 3 "" H 10100 2050 50  0001 C CNN
+	1    10100 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 1550 8700 1550
+Wire Wire Line
+	8800 1650 8700 1650
+Wire Wire Line
+	8800 1750 8700 1750
+Wire Wire Line
+	8800 1850 8700 1850
 $EndSCHEMATC
