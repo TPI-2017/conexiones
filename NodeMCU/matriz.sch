@@ -1,0 +1,308 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:max
+LIBS:leds
+LIBS:matriz8x8
+LIBS:wemosD1
+LIBS:ESP8266
+LIBS:matriz-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NodeMCU1.0(ESP-12E) U3
+U 1 1 59FF8FB1
+P 5800 4900
+F 0 "U3" H 5800 5750 60  0000 C CNN
+F 1 "NodeMCU1.0(ESP-12E)" H 5800 4050 60  0000 C CNN
+F 2 "" H 5200 4050 60  0000 C CNN
+F 3 "" H 5200 4050 60  0000 C CNN
+	1    5800 4900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6600 4600
+NoConn ~ 6600 4700
+NoConn ~ 6600 4800
+NoConn ~ 6600 4900
+NoConn ~ 6600 5000
+NoConn ~ 6600 5100
+NoConn ~ 6600 5200
+NoConn ~ 6600 4200
+NoConn ~ 5000 4200
+NoConn ~ 5000 4300
+NoConn ~ 5000 4400
+NoConn ~ 5000 4500
+NoConn ~ 5000 4600
+NoConn ~ 5000 4700
+NoConn ~ 5000 4800
+NoConn ~ 5000 5000
+NoConn ~ 5000 5200
+NoConn ~ 5000 5300
+NoConn ~ 5000 5400
+NoConn ~ 6600 5300
+NoConn ~ 6600 5400
+NoConn ~ 6600 5500
+NoConn ~ 6600 5600
+NoConn ~ 5000 5500
+NoConn ~ 5000 5100
+$Comp
+L +5V #PWR02
+U 1 1 5A00823B
+P 7050 5950
+F 0 "#PWR02" H 7050 5800 50  0001 C CNN
+F 1 "+5V" H 7050 6090 50  0000 C CNN
+F 2 "" H 7050 5950 50  0001 C CNN
+F 3 "" H 7050 5950 50  0001 C CNN
+	1    7050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L interfOut U4
+U 1 1 5A00A41D
+P 8950 2900
+F 0 "U4" H 9100 2500 60  0000 C CNN
+F 1 "interfOut" H 9000 3200 60  0000 C CNN
+F 2 "" H 9000 3200 60  0001 C CNN
+F 3 "" H 9000 3200 60  0001 C CNN
+	1    8950 2900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5000 4900
+$Comp
+L Q_NPN_BCE Q1
+U 1 1 5A048010
+P 7650 5200
+F 0 "Q1" H 7850 5250 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 7850 5150 50  0000 L CNN
+F 2 "" H 7850 5300 50  0001 C CNN
+F 3 "" H 7650 5200 50  0001 C CNN
+	1    7650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5A048139
+P 8100 4800
+F 0 "R3" V 8180 4800 50  0000 C CNN
+F 1 "0.7KOhm" V 8250 4800 50  0000 C CNN
+F 2 "" V 8030 4800 50  0001 C CNN
+F 3 "" H 8100 4800 50  0001 C CNN
+	1    8100 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5A048190
+P 7300 5200
+F 0 "R2" V 7400 5200 50  0000 C CNN
+F 1 "50KOhm" V 7500 5200 50  0000 C CNN
+F 2 "" V 7230 5200 50  0001 C CNN
+F 3 "" H 7300 5200 50  0001 C CNN
+	1    7300 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A04E6F4
+P 7750 5850
+F 0 "#PWR?" H 7750 5600 50  0001 C CNN
+F 1 "GND" H 7750 5700 50  0000 C CNN
+F 2 "" H 7750 5850 50  0001 C CNN
+F 3 "" H 7750 5850 50  0001 C CNN
+	1    7750 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_BCE Q?
+U 1 1 5A04F6F4
+P 8450 4400
+F 0 "Q?" H 8650 4450 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 8650 4350 50  0000 L CNN
+F 2 "" H 8650 4500 50  0001 C CNN
+F 3 "" H 8450 4400 50  0001 C CNN
+	1    8450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A04F6FA
+P 8900 4000
+F 0 "R?" V 8980 4000 50  0000 C CNN
+F 1 "0.7KOhm" V 9050 4000 50  0000 C CNN
+F 2 "" V 8830 4000 50  0001 C CNN
+F 3 "" H 8900 4000 50  0001 C CNN
+	1    8900 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A04F700
+P 8100 4400
+F 0 "R?" V 8200 4400 50  0000 C CNN
+F 1 "50KOhm" V 8300 4400 50  0000 C CNN
+F 2 "" V 8030 4400 50  0001 C CNN
+F 3 "" H 8100 4400 50  0001 C CNN
+	1    8100 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NPN_BCE Q?
+U 1 1 5A04F8C6
+P 7350 3900
+F 0 "Q?" H 7550 3950 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 7550 3850 50  0000 L CNN
+F 2 "" H 7550 4000 50  0001 C CNN
+F 3 "" H 7350 3900 50  0001 C CNN
+	1    7350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A04F8CC
+P 7800 3500
+F 0 "R?" V 7880 3500 50  0000 C CNN
+F 1 "0.7KOhm" V 7950 3500 50  0000 C CNN
+F 2 "" V 7730 3500 50  0001 C CNN
+F 3 "" H 7800 3500 50  0001 C CNN
+	1    7800 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A04F8D2
+P 7000 3900
+F 0 "R?" V 7100 3900 50  0000 C CNN
+F 1 "50KOhm" V 7200 3900 50  0000 C CNN
+F 2 "" V 6930 3900 50  0001 C CNN
+F 3 "" H 7000 3900 50  0001 C CNN
+	1    7000 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 4300 6800 4300
+Wire Wire Line
+	6600 4500 6950 4500
+Wire Wire Line
+	7750 5400 7750 5850
+Wire Wire Line
+	7150 5200 6950 5200
+Wire Wire Line
+	6950 5200 6950 4500
+Wire Wire Line
+	6600 4400 7950 4400
+Wire Wire Line
+	7950 4800 7750 4800
+Wire Wire Line
+	7750 4250 7750 5000
+Wire Wire Line
+	8750 4000 8550 4000
+Wire Wire Line
+	8550 3150 8550 4200
+Wire Wire Line
+	7050 5950 7050 6150
+Wire Wire Line
+	9550 6150 4850 6150
+Wire Wire Line
+	4850 6150 4850 5600
+Wire Wire Line
+	4850 5600 5000 5600
+Wire Wire Line
+	7050 5600 9650 5600
+Wire Wire Line
+	8550 5600 8550 4600
+Connection ~ 7750 5600
+Wire Wire Line
+	8250 4800 9550 4800
+Wire Wire Line
+	9550 3500 9550 6150
+Connection ~ 7050 6150
+Wire Wire Line
+	7650 3500 7450 3500
+Wire Wire Line
+	7450 2850 7450 3700
+Wire Wire Line
+	6850 3900 6800 3900
+Wire Wire Line
+	6800 3900 6800 4300
+Wire Wire Line
+	7450 4100 7450 4900
+Wire Wire Line
+	7450 4900 7050 4900
+Wire Wire Line
+	7050 4900 7050 5600
+Wire Wire Line
+	7450 2850 8650 2850
+Connection ~ 7450 3500
+Wire Wire Line
+	8550 3150 8650 3150
+Connection ~ 8550 4000
+Wire Wire Line
+	7750 4250 8100 4250
+Wire Wire Line
+	8100 4250 8100 3050
+Wire Wire Line
+	8100 3050 8650 3050
+Connection ~ 7750 4800
+Wire Wire Line
+	9050 4000 9550 4000
+Connection ~ 9550 4800
+Wire Wire Line
+	9550 3500 7950 3500
+Connection ~ 9550 4000
+Wire Wire Line
+	8000 3500 8000 2950
+Wire Wire Line
+	8000 2950 8650 2950
+Connection ~ 8000 3500
+Wire Wire Line
+	9650 5600 9650 2500
+Wire Wire Line
+	9650 2500 8450 2500
+Wire Wire Line
+	8450 2500 8450 2750
+Wire Wire Line
+	8450 2750 8650 2750
+Connection ~ 8550 5600
+$EndSCHEMATC
