@@ -1,4 +1,4 @@
-update=9/11/2017 9:55:00 p. m.
+update=12/11/2017 9:53:51 p. m.
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,6 +33,8 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -72,9 +74,5 @@ LibName32=valves
 LibName33=max
 LibName34=leds
 LibName35=matriz8x8
-LibName36=library/power
-LibName37=library/device
-LibName38=wemosD1
-LibName39=ESP8266
-[general]
-version=1
+LibName36=wemosD1
+LibName37=ESP8266
