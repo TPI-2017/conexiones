@@ -57,7 +57,7 @@ U 1 1 59C7E30E
 P 6300 3100
 F 0 "U1" H 6300 2400 60  0000 C CNN
 F 1 "MAX7219" H 6300 3800 60  0000 C CNN
-F 2 "" H 6900 3100 60  0000 C CNN
+F 2 "Housings_DIP:DIP-12_W7.62mm_LongPads" H 6900 3100 60  0001 C CNN
 F 3 "" H 6900 3100 60  0000 C CNN
 	1    6300 3100
 	1    0    0    -1  
@@ -68,7 +68,7 @@ U 1 1 59FFA831
 P 7650 2800
 F 0 "C1" H 7675 2900 50  0000 L CNN
 F 1 "0.1µF" H 7675 2700 50  0000 L CNN
-F 2 "" H 7688 2650 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal" H 7688 2650 50  0001 C CNN
 F 3 "" H 7650 2800 50  0001 C CNN
 	1    7650 2800
 	-1   0    0    1   
@@ -79,7 +79,7 @@ U 1 1 59FFA866
 P 7400 2800
 F 0 "CP1" H 7425 2900 50  0000 L CNN
 F 1 "10µF" H 7425 2700 50  0000 L CNN
-F 2 "" H 7400 2800 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 7400 2800 50  0001 C CNN
 F 3 "" H 7400 2800 50  0001 C CNN
 	1    7400 2800
 	-1   0    0    1   
@@ -90,7 +90,7 @@ U 1 1 59FFAE64
 P 8000 3050
 F 0 "R1" V 7850 3050 50  0000 C TNN
 F 1 "24kOhm" V 7800 3050 50  0000 C CNN
-F 2 "" V 7930 3050 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7930 3050 50  0001 C CNN
 F 3 "" H 8000 3050 50  0001 C CNN
 	1    8000 3050
 	0    -1   -1   0   
@@ -142,36 +142,36 @@ C1
 Entry Wire Line
 	5300 3350 5400 3250
 Entry Wire Line
-	4300 3000 4400 2900
+	4300 2850 4400 2750
 Entry Wire Line
-	4300 3100 4400 3000
+	4300 2950 4400 2850
 Entry Wire Line
-	4300 3200 4400 3100
+	4300 3050 4400 2950
 Entry Wire Line
-	4300 3300 4400 3200
+	4300 3150 4400 3050
 Entry Wire Line
-	4300 3400 4400 3300
+	4300 3250 4400 3150
 Entry Wire Line
-	4300 3500 4400 3400
+	4300 3350 4400 3250
 Entry Wire Line
-	4300 3600 4400 3500
+	4300 3450 4400 3350
 Entry Wire Line
-	4300 2900 4400 2800
-Text Label 4200 2900 0    47   ~ 0
+	4300 2750 4400 2650
+Text Label 4200 2750 0    47   ~ 0
 F0
-Text Label 4200 3000 0    47   ~ 0
+Text Label 4200 2850 0    47   ~ 0
 F1
-Text Label 4200 3100 0    47   ~ 0
+Text Label 4200 2950 0    47   ~ 0
 F2
-Text Label 4200 3200 0    47   ~ 0
+Text Label 4200 3050 0    47   ~ 0
 F3
-Text Label 4200 3300 0    47   ~ 0
+Text Label 4200 3150 0    47   ~ 0
 F4
-Text Label 4200 3400 0    47   ~ 0
+Text Label 4200 3250 0    47   ~ 0
 F5
-Text Label 4200 3500 0    47   ~ 0
+Text Label 4200 3350 0    47   ~ 0
 F6
-Text Label 4200 3600 0    47   ~ 0
+Text Label 4200 3450 0    47   ~ 0
 F7
 Entry Wire Line
 	7000 2850 7100 2750
@@ -195,17 +195,6 @@ Text Label 6950 3450 2    47   ~ 0
 F1
 Text Label 6950 3550 2    47   ~ 0
 F6
-$Comp
-L interfOut U4
-U 1 1 5A00A41D
-P 8800 2500
-F 0 "U4" H 8950 2100 60  0000 C CNN
-F 1 "interfOut" H 8850 2800 60  0000 C CNN
-F 2 "" H 8850 2800 60  0001 C CNN
-F 3 "" H 8850 2800 60  0001 C CNN
-	1    8800 2500
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	7000 2950 7100 2850
 Entry Wire Line
@@ -234,36 +223,10 @@ Entry Wire Line
 	7000 2650 7100 2550
 Entry Wire Line
 	5300 2750 5400 2650
-$Comp
-L matriz8x8 U2
-U 1 1 5A00EBC4
-P 3700 3150
-F 0 "U2" H 3900 3550 60  0000 C CNN
-F 1 "matriz8x8" H 3250 3550 60  0000 C CNN
-F 2 "" H 3900 3550 60  0001 C CNN
-F 3 "" H 3900 3550 60  0001 C CNN
-	1    3700 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L interfIn U6
-U 1 1 5A04FCE4
-P 2050 2900
-F 0 "U6" H 2200 2500 60  0000 C CNN
-F 1 "interfIn" H 2100 3200 60  0000 C CNN
-F 2 "" H 2100 3200 60  0001 C CNN
-F 3 "" H 2100 3200 60  0001 C CNN
-	1    2050 2900
-	1    0    0    -1  
-$EndComp
-Wire Bus Line
-	4400 2300 4400 3500
 Wire Bus Line
 	7100 2300 4400 2300
 Wire Wire Line
 	2600 2850 2600 2550
-Wire Wire Line
-	2450 2850 2600 2850
 Wire Wire Line
 	2600 2550 5700 2550
 Wire Wire Line
@@ -309,21 +272,21 @@ Wire Wire Line
 Wire Wire Line
 	7000 2550 6900 2550
 Wire Wire Line
-	4200 3600 4300 3600
+	4200 3450 4300 3450
 Wire Wire Line
-	4300 3500 4200 3500
+	4300 3350 4200 3350
 Wire Wire Line
-	4200 3400 4300 3400
+	4200 3250 4300 3250
 Wire Wire Line
-	4300 3300 4200 3300
+	4300 3150 4200 3150
 Wire Wire Line
-	4200 3200 4300 3200
+	4200 3050 4300 3050
 Wire Wire Line
-	4300 3100 4200 3100
+	4300 2950 4200 2950
 Wire Wire Line
-	4200 3000 4300 3000
+	4200 2850 4300 2850
 Wire Wire Line
-	4300 2900 4200 2900
+	4300 2750 4200 2750
 Wire Wire Line
 	5700 3650 5700 4400
 Wire Bus Line
@@ -390,10 +353,6 @@ Wire Wire Line
 Wire Wire Line
 	7950 2350 8500 2350
 Wire Wire Line
-	2500 2200 2500 2750
-Wire Wire Line
-	2500 2750 2450 2750
-Wire Wire Line
 	7650 2650 7650 2200
 Connection ~ 7650 2200
 Wire Wire Line
@@ -407,8 +366,6 @@ Wire Wire Line
 	5700 4400 2800 4400
 Wire Wire Line
 	2800 4400 2800 3150
-Wire Wire Line
-	2800 3150 2450 3150
 Connection ~ 5700 3900
 Wire Wire Line
 	7950 2200 7950 2350
@@ -418,11 +375,7 @@ Wire Wire Line
 	8150 2050 2850 2050
 Wire Wire Line
 	2850 2050 2850 2950
-Wire Wire Line
-	2850 2950 2450 2950
 Connection ~ 8150 2550
-Wire Wire Line
-	2450 3050 2600 3050
 Wire Wire Line
 	2600 3050 2600 4550
 Wire Wire Line
@@ -430,4 +383,82 @@ Wire Wire Line
 Wire Wire Line
 	7150 4550 7150 3650
 Connection ~ 7150 3650
+$Comp
+L Conn_01x05 J1
+U 1 1 5A09A051
+P 1850 2950
+F 0 "J1" H 1850 3250 50  0000 C CNN
+F 1 "Conn_01x05" H 1850 2650 50  0000 C CNN
+F 2 "" H 1850 2950 50  0001 C CNN
+F 3 "" H 1850 2950 50  0001 C CNN
+	1    1850 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x05 J2
+U 1 1 5A09A094
+P 8700 2550
+F 0 "J2" H 8700 2850 50  0000 C CNN
+F 1 "Conn_01x05" H 8700 2250 50  0000 C CNN
+F 2 "" H 8700 2550 50  0001 C CNN
+F 3 "" H 8700 2550 50  0001 C CNN
+	1    8700 2550
+	1    0    0    -1  
+$EndComp
+Text Label 2100 2750 0    60   ~ 0
+GND
+Text Label 2100 2850 0    60   ~ 0
+DIN
+Text Label 2100 2950 0    60   ~ 0
+V+
+Text Label 2100 3050 0    60   ~ 0
+CLK
+Text Label 2100 3150 0    60   ~ 0
+LD
+Wire Wire Line
+	2800 3150 2050 3150
+Wire Wire Line
+	2050 3050 2600 3050
+Wire Wire Line
+	2850 2950 2050 2950
+Wire Wire Line
+	2050 2850 2600 2850
+Wire Wire Line
+	2500 2750 2500 2200
+Wire Wire Line
+	2050 2750 2500 2750
+Text Label 8450 2350 2    60   ~ 0
+GND
+Text Label 8450 2450 2    60   ~ 0
+DOUT
+Text Label 8450 2550 2    60   ~ 0
+V+
+Text Label 8450 2650 2    60   ~ 0
+CLK
+Text Label 8450 2750 2    60   ~ 0
+LD
+$Comp
+L Conn_01x08 J3
+U 1 1 5A09A91B
+P 4000 3150
+F 0 "J3" H 4000 3550 50  0000 C CNN
+F 1 "Conn_01x08" H 4000 2650 50  0000 C CNN
+F 2 "" H 4000 3150 50  0001 C CNN
+F 3 "" H 4000 3150 50  0001 C CNN
+	1    4000 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x08 J4
+U 1 1 5A09A95A
+P 3400 3800
+F 0 "J4" H 3400 4200 50  0000 C CNN
+F 1 "Conn_01x08" H 3400 3300 50  0000 C CNN
+F 2 "" H 3400 3800 50  0001 C CNN
+F 3 "" H 3400 3800 50  0001 C CNN
+	1    3400 3800
+	0    -1   -1   0   
+$EndComp
+Wire Bus Line
+	4400 2300 4400 3350
 $EndSCHEMATC
