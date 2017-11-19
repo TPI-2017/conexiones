@@ -68,7 +68,7 @@ U 1 1 59FFA831
 P 7650 2800
 F 0 "C1" H 7675 2900 50  0000 L CNN
 F 1 "0.1µF" H 7675 2700 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal" H 7688 2650 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7688 2650 50  0001 C CNN
 F 3 "" H 7650 2800 50  0001 C CNN
 	1    7650 2800
 	-1   0    0    1   
@@ -95,19 +95,19 @@ F 3 "" H 8000 3050 50  0001 C CNN
 	1    8000 3050
 	0    -1   -1   0   
 $EndComp
-Text Label 3100 4050 3    47   ~ 0
+Text Label 4000 4050 3    47   ~ 0
 C0
-Text Label 3200 4050 3    47   ~ 0
+Text Label 4100 4050 3    47   ~ 0
 C1
-Text Label 3300 4050 3    47   ~ 0
+Text Label 4200 4050 3    47   ~ 0
 C2
-Text Label 3400 4050 3    47   ~ 0
+Text Label 4300 4050 3    47   ~ 0
 C3
-Text Label 3500 4050 3    47   ~ 0
+Text Label 4400 4050 3    47   ~ 0
 C4
-Text Label 3600 4050 3    47   ~ 0
+Text Label 4500 4050 3    47   ~ 0
 C5
-Text Label 3700 4050 3    47   ~ 0
+Text Label 4600 4050 3    47   ~ 0
 C6
 Entry Wire Line
 	5300 2850 5400 2750
@@ -117,7 +117,7 @@ Entry Wire Line
 	5300 3150 5400 3050
 Entry Wire Line
 	5300 3250 5400 3150
-Text Label 3800 4050 3    47   ~ 0
+Text Label 4700 4050 3    47   ~ 0
 C7
 Text Label 5500 2650 2    47   ~ 0
 C0
@@ -142,36 +142,36 @@ C1
 Entry Wire Line
 	5300 3350 5400 3250
 Entry Wire Line
-	4300 2850 4400 2750
+	4900 2850 5000 2750
 Entry Wire Line
-	4300 2950 4400 2850
+	4900 2950 5000 2850
 Entry Wire Line
-	4300 3050 4400 2950
+	4900 3050 5000 2950
 Entry Wire Line
-	4300 3150 4400 3050
+	4900 3150 5000 3050
 Entry Wire Line
-	4300 3250 4400 3150
+	4900 3250 5000 3150
 Entry Wire Line
-	4300 3350 4400 3250
+	4900 3350 5000 3250
 Entry Wire Line
-	4300 3450 4400 3350
+	4900 3450 5000 3350
 Entry Wire Line
-	4300 2750 4400 2650
-Text Label 4200 2750 0    47   ~ 0
+	4900 2750 5000 2650
+Text Label 4800 2750 0    47   ~ 0
 F0
-Text Label 4200 2850 0    47   ~ 0
+Text Label 4800 2850 0    47   ~ 0
 F1
-Text Label 4200 2950 0    47   ~ 0
+Text Label 4800 2950 0    47   ~ 0
 F2
-Text Label 4200 3050 0    47   ~ 0
+Text Label 4800 3050 0    47   ~ 0
 F3
-Text Label 4200 3150 0    47   ~ 0
+Text Label 4800 3150 0    47   ~ 0
 F4
-Text Label 4200 3250 0    47   ~ 0
+Text Label 4800 3250 0    47   ~ 0
 F5
-Text Label 4200 3350 0    47   ~ 0
+Text Label 4800 3350 0    47   ~ 0
 F6
-Text Label 4200 3450 0    47   ~ 0
+Text Label 4800 3450 0    47   ~ 0
 F7
 Entry Wire Line
 	7000 2850 7100 2750
@@ -200,21 +200,21 @@ Entry Wire Line
 Entry Wire Line
 	7000 2750 7100 2650
 Entry Wire Line
-	3800 4200 3900 4300
+	4700 4200 4800 4300
 Entry Wire Line
-	3700 4200 3800 4300
+	4600 4200 4700 4300
 Entry Wire Line
-	3600 4200 3700 4300
+	4500 4200 4600 4300
 Entry Wire Line
-	3500 4200 3600 4300
+	4400 4200 4500 4300
 Entry Wire Line
-	3400 4200 3500 4300
+	4300 4200 4400 4300
 Entry Wire Line
-	3300 4200 3400 4300
+	4200 4200 4300 4300
 Entry Wire Line
-	3200 4200 3300 4300
+	4100 4200 4200 4300
 Entry Wire Line
-	3100 4200 3200 4300
+	4000 4200 4100 4300
 Entry Wire Line
 	7000 3550 7100 3450
 Entry Wire Line
@@ -223,12 +223,72 @@ Entry Wire Line
 	7000 2650 7100 2550
 Entry Wire Line
 	5300 2750 5400 2650
-Wire Bus Line
-	7100 2300 4400 2300
+$Comp
+L Conn_01x05 J1
+U 1 1 5A09A051
+P 2800 2950
+F 0 "J1" H 2800 3250 50  0000 C CNN
+F 1 "Conn_01x05" H 2800 2650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 2800 2950 50  0001 C CNN
+F 3 "" H 2800 2950 50  0001 C CNN
+	1    2800 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x05 J2
+U 1 1 5A09A094
+P 8700 2550
+F 0 "J2" H 8700 2850 50  0000 C CNN
+F 1 "Conn_01x05" H 8700 2250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 8700 2550 50  0001 C CNN
+F 3 "" H 8700 2550 50  0001 C CNN
+	1    8700 2550
+	1    0    0    -1  
+$EndComp
+Text Label 3050 2750 0    60   ~ 0
+GND
+Text Label 3050 2850 0    60   ~ 0
+DIN
+Text Label 3050 2950 0    60   ~ 0
+V+
+Text Label 3050 3150 0    60   ~ 0
+LD
+Text Label 8450 2350 2    60   ~ 0
+GND
+Text Label 8450 2450 2    60   ~ 0
+DOUT
+Text Label 8450 2550 2    60   ~ 0
+V+
+Text Label 8450 2650 2    60   ~ 0
+CLK
+Text Label 8450 2750 2    60   ~ 0
+LD
+$Comp
+L Conn_01x08 J3
+U 1 1 5A09A91B
+P 4600 3150
+F 0 "J3" H 4600 3550 50  0000 C CNN
+F 1 "Conn_01x08" H 4600 2650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 4600 3150 50  0001 C CNN
+F 3 "" H 4600 3150 50  0001 C CNN
+	1    4600 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x08 J4
+U 1 1 5A09A95A
+P 4300 3800
+F 0 "J4" H 4300 4200 50  0000 C CNN
+F 1 "Conn_01x08" H 4300 3300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 4300 3800 50  0001 C CNN
+F 3 "" H 4300 3800 50  0001 C CNN
+	1    4300 3800
+	0    -1   -1   0   
+$EndComp
+Text Label 3050 3050 0    60   ~ 0
+CLK
 Wire Wire Line
-	2600 2850 2600 2550
-Wire Wire Line
-	2600 2550 5700 2550
+	3550 2850 3550 2550
 Wire Wire Line
 	7050 3100 7050 3050
 Wire Wire Line
@@ -251,46 +311,44 @@ Wire Wire Line
 	6900 3350 7000 3350
 Wire Wire Line
 	7000 3550 6900 3550
-Wire Bus Line
-	5300 4300 3200 4300
 Wire Wire Line
-	3100 4000 3100 4200
+	4000 4000 4000 4200
 Wire Wire Line
-	3200 4000 3200 4200
+	4100 4000 4100 4200
 Wire Wire Line
-	3300 4000 3300 4200
+	4200 4000 4200 4200
 Wire Wire Line
-	3400 4000 3400 4200
+	4300 4000 4300 4200
 Wire Wire Line
-	3500 4000 3500 4200
+	4400 4000 4400 4200
 Wire Wire Line
-	3600 4000 3600 4200
+	4500 4000 4500 4200
 Wire Wire Line
-	3700 4000 3700 4200
+	4600 4000 4600 4200
 Wire Wire Line
-	3800 4000 3800 4200
+	4700 4000 4700 4200
 Wire Wire Line
 	7000 2550 6900 2550
 Wire Wire Line
-	4200 3450 4300 3450
+	4800 3450 4900 3450
 Wire Wire Line
-	4300 3350 4200 3350
+	4900 3350 4800 3350
 Wire Wire Line
-	4200 3250 4300 3250
+	4800 3250 4900 3250
 Wire Wire Line
-	4300 3150 4200 3150
+	4900 3150 4800 3150
 Wire Wire Line
-	4200 3050 4300 3050
+	4800 3050 4900 3050
 Wire Wire Line
-	4300 2950 4200 2950
+	4900 2950 4800 2950
 Wire Wire Line
-	4200 2850 4300 2850
+	4800 2850 4900 2850
 Wire Wire Line
-	4300 2750 4200 2750
+	4900 2750 4800 2750
 Wire Wire Line
 	5700 3650 5700 4400
 Wire Bus Line
-	5300 2750 5300 4300
+	5300 4300 5300 2750
 Wire Wire Line
 	5650 3350 5700 3350
 Wire Wire Line
@@ -353,112 +411,54 @@ Wire Wire Line
 Wire Wire Line
 	7950 2350 8500 2350
 Wire Wire Line
-	7650 2650 7650 2200
+	7650 2200 7650 2650
 Connection ~ 7650 2200
 Wire Wire Line
-	7400 2650 7400 2200
+	7400 2200 7400 2650
 Connection ~ 7400 2200
 Wire Wire Line
 	5650 2200 5650 3350
 Connection ~ 5650 2200
 Connection ~ 5650 2850
 Wire Wire Line
-	5700 4400 2800 4400
+	5700 4400 3750 4400
 Wire Wire Line
-	2800 4400 2800 3150
+	3750 4400 3750 3150
 Connection ~ 5700 3900
 Wire Wire Line
 	7950 2200 7950 2350
 Wire Wire Line
-	2500 2200 7950 2200
+	3450 2200 7950 2200
 Wire Wire Line
-	8150 2050 2850 2050
+	8150 2050 3800 2050
 Wire Wire Line
-	2850 2050 2850 2950
+	3800 2050 3800 2950
 Connection ~ 8150 2550
-Wire Wire Line
-	2600 3050 2600 4550
-Wire Wire Line
-	2600 4550 7150 4550
 Wire Wire Line
 	7150 4550 7150 3650
 Connection ~ 7150 3650
-$Comp
-L Conn_01x05 J1
-U 1 1 5A09A051
-P 1850 2950
-F 0 "J1" H 1850 3250 50  0000 C CNN
-F 1 "Conn_01x05" H 1850 2650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 1850 2950 50  0001 C CNN
-F 3 "" H 1850 2950 50  0001 C CNN
-	1    1850 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_01x05 J2
-U 1 1 5A09A094
-P 8700 2550
-F 0 "J2" H 8700 2850 50  0000 C CNN
-F 1 "Conn_01x05" H 8700 2250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 8700 2550 50  0001 C CNN
-F 3 "" H 8700 2550 50  0001 C CNN
-	1    8700 2550
-	1    0    0    -1  
-$EndComp
-Text Label 2100 2750 0    60   ~ 0
-GND
-Text Label 2100 2850 0    60   ~ 0
-DIN
-Text Label 2100 2950 0    60   ~ 0
-V+
-Text Label 2100 3050 0    60   ~ 0
-CLK
-Text Label 2100 3150 0    60   ~ 0
-LD
 Wire Wire Line
-	2800 3150 2050 3150
+	3750 3150 3000 3150
 Wire Wire Line
-	2050 3050 2600 3050
+	3800 2950 3000 2950
 Wire Wire Line
-	2850 2950 2050 2950
+	3000 2850 3550 2850
 Wire Wire Line
-	2050 2850 2600 2850
+	3450 2750 3450 2200
 Wire Wire Line
-	2500 2750 2500 2200
-Wire Wire Line
-	2050 2750 2500 2750
-Text Label 8450 2350 2    60   ~ 0
-GND
-Text Label 8450 2450 2    60   ~ 0
-DOUT
-Text Label 8450 2550 2    60   ~ 0
-V+
-Text Label 8450 2650 2    60   ~ 0
-CLK
-Text Label 8450 2750 2    60   ~ 0
-LD
-$Comp
-L Conn_01x08 J3
-U 1 1 5A09A91B
-P 4000 3150
-F 0 "J3" H 4000 3550 50  0000 C CNN
-F 1 "Conn_01x08" H 4000 2650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 4000 3150 50  0001 C CNN
-F 3 "" H 4000 3150 50  0001 C CNN
-	1    4000 3150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_01x08 J4
-U 1 1 5A09A95A
-P 3400 3800
-F 0 "J4" H 3400 4200 50  0000 C CNN
-F 1 "Conn_01x08" H 3400 3300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 3400 3800 50  0001 C CNN
-F 3 "" H 3400 3800 50  0001 C CNN
-	1    3400 3800
-	0    -1   -1   0   
-$EndComp
+	3000 2750 3450 2750
 Wire Bus Line
-	4400 2300 4400 3350
+	5000 2300 5000 3350
+Wire Bus Line
+	5000 2300 7100 2300
+Wire Bus Line
+	4100 4300 5300 4300
+Wire Wire Line
+	3000 3050 3550 3050
+Wire Wire Line
+	3550 3050 3550 4550
+Wire Wire Line
+	3550 4550 7150 4550
+Wire Wire Line
+	3550 2550 5700 2550
 $EndSCHEMATC
