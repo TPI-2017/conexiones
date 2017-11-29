@@ -1,4 +1,4 @@
-update=27/11/2017 20:59:16
+update=29/11/2017 01:47:09 p.m.
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -77,3 +75,5 @@ LibName35=matriz8x8
 LibName36=wemosD1
 LibName37=ESP8266
 LibName38=C:/UNLP/TP1/Informe/Conexiones/conexiones/Librerias/kicad-ESP8266-master/ESP8266
+[general]
+version=1
