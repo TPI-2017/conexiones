@@ -1,4 +1,4 @@
-update=19/11/2017 8:46:05 p. m.
+update=27/11/2017 20:59:16
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,18 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -64,15 +76,4 @@ LibName34=leds
 LibName35=matriz8x8
 LibName36=wemosD1
 LibName37=ESP8266
-[general]
-version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName38=C:/UNLP/TP1/Informe/Conexiones/conexiones/Librerias/kicad-ESP8266-master/ESP8266
