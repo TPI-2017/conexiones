@@ -57,7 +57,7 @@ U 1 1 59FF8FB1
 P 4950 4900
 F 0 "U3" H 4950 5750 60  0000 C CNN
 F 1 "NodeMCU1.0(ESP-12E)" H 4950 4050 60  0000 C CNN
-F 2 "NodeMCU:NodeMCU1.0(12-E)" H 4350 4050 60  0001 C CNN
+F 2 "ESP8266:NodeMCU1.0(12-E)" H 4350 4050 60  0001 C CNN
 F 3 "" H 4350 4050 60  0000 C CNN
 	1    4950 4900
 	1    0    0    -1  
@@ -176,7 +176,7 @@ U 1 1 5A09B03B
 P 9050 2950
 F 0 "J1" H 9050 3250 50  0000 C CNN
 F 1 "Conn_01x05" H 9050 2650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 9050 2950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 9050 2950 50  0001 C CNN
 F 3 "" H 9050 2950 50  0001 C CNN
 	1    9050 2950
 	1    0    0    -1  
@@ -195,68 +195,46 @@ $EndComp
 $Comp
 L R R1
 U 1 1 5A048190
-P 7100 4700
-F 0 "R1" V 7200 4700 50  0000 C CNN
-F 1 "50KOhm" V 7300 4700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7030 4700 50  0001 C CNN
-F 3 "" H 7100 4700 50  0001 C CNN
-	1    7100 4700
+P 7100 5000
+F 0 "R1" V 7200 5000 50  0000 C CNN
+F 1 "50KOhm" V 7300 5000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7030 5000 50  0001 C CNN
+F 3 "" H 7100 5000 50  0001 C CNN
+	1    7100 5000
 	0    1    1    0   
 $EndComp
 $Comp
 L R R2
 U 1 1 5A048139
-P 7550 5150
-F 0 "R2" V 7630 5150 50  0000 C CNN
-F 1 "0.7KOhm" V 7700 5150 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7480 5150 50  0001 C CNN
-F 3 "" H 7550 5150 50  0001 C CNN
-	1    7550 5150
+P 7550 4550
+F 0 "R2" V 7630 4550 50  0000 C CNN
+F 1 "0.7KOhm" V 7700 4550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7480 4550 50  0001 C CNN
+F 3 "" H 7550 4550 50  0001 C CNN
+	1    7550 4550
 	-1   0    0    1   
-$EndComp
-$Comp
-L Q_NPN_BCE Q1
-U 1 1 5A048010
-P 7450 4700
-F 0 "Q1" H 7650 4750 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 7650 4650 50  0000 L CNN
-F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-II_BigPads" H 7650 4800 50  0001 C CNN
-F 3 "" H 7450 4700 50  0001 C CNN
-	1    7450 4700
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R3
 U 1 1 5A0A3C12
-P 8400 4400
-F 0 "R3" V 8500 4400 50  0000 C CNN
-F 1 "50KOhm" V 8600 4400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8330 4400 50  0001 C CNN
-F 3 "" H 8400 4400 50  0001 C CNN
-	1    8400 4400
+P 8450 5150
+F 0 "R3" V 8550 5150 50  0000 C CNN
+F 1 "50KOhm" V 8650 5150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8380 5150 50  0001 C CNN
+F 3 "" H 8450 5150 50  0001 C CNN
+	1    8450 5150
 	0    1    1    0   
 $EndComp
 $Comp
 L R R4
 U 1 1 5A0A3C18
-P 8850 4850
-F 0 "R4" V 8930 4850 50  0000 C CNN
-F 1 "0.7KOhm" V 9000 4850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8780 4850 50  0001 C CNN
-F 3 "" H 8850 4850 50  0001 C CNN
-	1    8850 4850
+P 8900 4550
+F 0 "R4" V 8980 4550 50  0000 C CNN
+F 1 "0.7KOhm" V 9050 4550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8830 4550 50  0001 C CNN
+F 3 "" H 8900 4550 50  0001 C CNN
+	1    8900 4550
 	-1   0    0    1   
-$EndComp
-$Comp
-L Q_NPN_BCE Q2
-U 1 1 5A0A3C1E
-P 8750 4400
-F 0 "Q2" H 8950 4450 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 8950 4350 50  0000 L CNN
-F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-II_BigPads" H 8950 4500 50  0001 C CNN
-F 3 "" H 8750 4400 50  0001 C CNN
-	1    8750 4400
-	1    0    0    -1  
 $EndComp
 $Comp
 L GNDPWR #PWR04
@@ -272,35 +250,35 @@ $EndComp
 $Comp
 L R R5
 U 1 1 5A0A44A8
-P 6800 3500
-F 0 "R5" V 6900 3500 50  0000 C CNN
-F 1 "50KOhm" V 7000 3500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6730 3500 50  0001 C CNN
-F 3 "" H 6800 3500 50  0001 C CNN
-	1    6800 3500
+P 6800 3850
+F 0 "R5" V 6900 3850 50  0000 C CNN
+F 1 "50KOhm" V 7000 3850 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6730 3850 50  0001 C CNN
+F 3 "" H 6800 3850 50  0001 C CNN
+	1    6800 3850
 	0    1    1    0   
+$EndComp
+$Comp
+L SW_Push SW2
+U 1 1 5A121D29
+P 6850 5400
+F 0 "SW2" H 6900 5500 50  0000 L CNN
+F 1 "SW_Push" H 6850 5340 50  0000 C CNN
+F 2 "Connectors:PINHEAD1-2" H 6850 5600 50  0001 C CNN
+F 3 "" H 6850 5600 50  0001 C CNN
+	1    6850 5400
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R6
 U 1 1 5A0A44AE
-P 7250 3950
-F 0 "R6" V 7330 3950 50  0000 C CNN
-F 1 "0.7KOhm" V 7400 3950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7180 3950 50  0001 C CNN
-F 3 "" H 7250 3950 50  0001 C CNN
-	1    7250 3950
+P 7250 3250
+F 0 "R6" V 7330 3250 50  0000 C CNN
+F 1 "0.7KOhm" V 7400 3250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7180 3250 50  0001 C CNN
+F 3 "" H 7250 3250 50  0001 C CNN
+	1    7250 3250
 	-1   0    0    1   
-$EndComp
-$Comp
-L Q_NPN_BCE Q3
-U 1 1 5A0A44B4
-P 7150 3500
-F 0 "Q3" H 7350 3550 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 7350 3450 50  0000 L CNN
-F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-II_BigPads" H 7350 3600 50  0001 C CNN
-F 3 "" H 7150 3500 50  0001 C CNN
-	1    7150 3500
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3800 2650 3800 2850
@@ -309,7 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 3150 8850 3150
 Wire Wire Line
-	7250 2950 8850 2950
+	4100 2950 8850 2950
 Wire Wire Line
 	9650 5600 9650 2500
 Wire Wire Line
@@ -344,20 +322,13 @@ Wire Wire Line
 Wire Wire Line
 	8150 3050 8850 3050
 Wire Wire Line
-	7550 4900 7550 5000
-Connection ~ 7550 4950
-Wire Wire Line
-	3800 3250 7250 3250
-Wire Wire Line
-	8850 4600 8850 4700
-Wire Wire Line
 	6950 4700 6100 4700
 Wire Wire Line
 	6100 4700 6100 4500
 Wire Wire Line
 	6100 4500 5750 4500
 Wire Wire Line
-	7550 5300 7550 6200
+	7550 5200 7550 6200
 Wire Wire Line
 	6100 5950 7550 5950
 Connection ~ 7550 5950
@@ -376,55 +347,22 @@ Wire Wire Line
 	7800 6150 7800 6100
 Connection ~ 7550 6150
 Wire Wire Line
-	7550 4950 8150 4950
-Wire Wire Line
-	8150 4950 8150 3050
-Wire Wire Line
-	5750 4400 8250 4400
-Wire Wire Line
-	8850 4650 9400 4650
-Wire Wire Line
-	9400 4650 9400 3350
-Wire Wire Line
 	9400 3350 8400 3350
 Wire Wire Line
 	8400 3350 8400 3150
-Connection ~ 8850 4650
 Wire Wire Line
-	7550 5450 8850 5450
-Wire Wire Line
-	8850 5450 8850 5000
+	7550 5450 8900 5450
 Connection ~ 7550 5450
-Wire Wire Line
-	7250 3700 7250 3800
-Wire Wire Line
-	6650 3500 6500 3500
-Wire Wire Line
-	6500 3500 6500 4300
 Wire Wire Line
 	6500 4300 5750 4300
 Wire Wire Line
 	7250 4100 9650 4100
 Connection ~ 9650 4100
 Wire Wire Line
-	7250 3750 7900 3750
-Wire Wire Line
-	7900 3750 7900 2850
-Connection ~ 7250 3750
-Wire Wire Line
-	7250 2950 7250 3300
-Connection ~ 7250 3250
-Wire Wire Line
 	6850 5600 9650 5600
 Connection ~ 7550 5600
 Wire Wire Line
-	6200 3250 6200 4200
-Wire Wire Line
-	6200 4200 8850 4200
-Connection ~ 6200 3250
-Wire Wire Line
-	7550 4500 7550 4200
-Connection ~ 7550 4200
+	6200 2950 6200 4200
 Wire Wire Line
 	4150 5600 3800 5600
 Wire Wire Line
@@ -435,17 +373,6 @@ Wire Wire Line
 	6350 5000 5750 5000
 Wire Wire Line
 	6100 5100 5750 5100
-$Comp
-L SW_Push SW2
-U 1 1 5A121D29
-P 6850 5400
-F 0 "SW2" H 6900 5500 50  0000 L CNN
-F 1 "SW_Push" H 6850 5340 50  0000 C CNN
-F 2 "Connectors:PINHEAD1-2" H 6850 5600 50  0001 C CNN
-F 3 "" H 6850 5600 50  0001 C CNN
-	1    6850 5400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5750 4600 5950 4600
 Wire Wire Line
@@ -454,4 +381,88 @@ Wire Wire Line
 	5950 4800 6850 4800
 Wire Wire Line
 	6850 4800 6850 5200
+Wire Wire Line
+	6950 4700 6950 5000
+Wire Wire Line
+	6200 4200 8900 4200
+Wire Wire Line
+	7550 4700 7550 4800
+Wire Wire Line
+	5750 4400 8300 4400
+Wire Wire Line
+	7550 4400 7550 4200
+Connection ~ 7550 4200
+Wire Wire Line
+	7550 4750 8150 4750
+Wire Wire Line
+	8150 4750 8150 3050
+Connection ~ 7550 4750
+Wire Wire Line
+	8900 5450 8900 5350
+Wire Wire Line
+	8900 4200 8900 4400
+Wire Wire Line
+	8900 4700 8900 4950
+Wire Wire Line
+	9400 3350 9400 4800
+Wire Wire Line
+	9400 4800 8900 4800
+Connection ~ 8900 4800
+Wire Wire Line
+	8300 4400 8300 5150
+Wire Wire Line
+	6500 4300 6500 3850
+Wire Wire Line
+	6500 3850 6650 3850
+Wire Wire Line
+	7250 4100 7250 4050
+Wire Wire Line
+	4100 2950 4100 3450
+Wire Wire Line
+	4100 3450 3800 3450
+Connection ~ 3800 3450
+Connection ~ 6200 2950
+Wire Wire Line
+	7250 3100 7250 2950
+Connection ~ 7250 2950
+Wire Wire Line
+	7250 3400 7250 3650
+Wire Wire Line
+	7900 2850 7900 3550
+Wire Wire Line
+	7900 3550 7250 3550
+Connection ~ 7250 3550
+$Comp
+L Q_NPN_CBE Q2
+U 1 1 5A204A80
+P 8800 5150
+F 0 "Q2" H 9000 5200 50  0000 L CNN
+F 1 "Q_NPN_CBE" H 9000 5100 50  0000 L CNN
+F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-II_BigPads" H 9000 5250 50  0001 C CNN
+F 3 "" H 8800 5150 50  0001 C CNN
+	1    8800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_CBE Q1
+U 1 1 5A204BD0
+P 7450 5000
+F 0 "Q1" H 7650 5050 50  0000 L CNN
+F 1 "Q_NPN_CBE" H 7650 4950 50  0000 L CNN
+F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-II_BigPads" H 7650 5100 50  0001 C CNN
+F 3 "" H 7450 5000 50  0001 C CNN
+	1    7450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_CBE Q3
+U 1 1 5A204D65
+P 7150 3850
+F 0 "Q3" H 7350 3900 50  0000 L CNN
+F 1 "Q_NPN_CBE" H 7350 3800 50  0000 L CNN
+F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-II_BigPads" H 7350 3950 50  0001 C CNN
+F 3 "" H 7150 3850 50  0001 C CNN
+	1    7150 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
