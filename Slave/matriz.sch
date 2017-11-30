@@ -79,7 +79,7 @@ U 1 1 59FFA866
 P 7400 2800
 F 0 "CP1" H 7425 2900 50  0000 L CNN
 F 1 "10µF" H 7425 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 7400 2800 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_Tantal_D8.0mm_P5.00mm" H 7400 2800 50  0001 C CNN
 F 3 "" H 7400 2800 50  0001 C CNN
 	1    7400 2800
 	-1   0    0    1   
@@ -229,7 +229,7 @@ U 1 1 5A09A051
 P 2800 2950
 F 0 "J1" H 2800 3250 50  0000 C CNN
 F 1 "Conn_01x05" H 2800 2650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 2800 2950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 2800 2950 50  0001 C CNN
 F 3 "" H 2800 2950 50  0001 C CNN
 	1    2800 2950
 	-1   0    0    1   
@@ -240,7 +240,7 @@ U 1 1 5A09A094
 P 8700 2550
 F 0 "J2" H 8700 2850 50  0000 C CNN
 F 1 "Conn_01x05" H 8700 2250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 8700 2550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 8700 2550 50  0001 C CNN
 F 3 "" H 8700 2550 50  0001 C CNN
 	1    8700 2550
 	1    0    0    -1  
@@ -269,7 +269,7 @@ U 1 1 5A09A91B
 P 4600 3150
 F 0 "J3" H 4600 3550 50  0000 C CNN
 F 1 "Conn_01x08" H 4600 2650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 4600 3150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 4600 3150 50  0001 C CNN
 F 3 "" H 4600 3150 50  0001 C CNN
 	1    4600 3150
 	-1   0    0    1   
@@ -280,7 +280,7 @@ U 1 1 5A09A95A
 P 4300 3800
 F 0 "J4" H 4300 4200 50  0000 C CNN
 F 1 "Conn_01x08" H 4300 3300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 4300 3800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 4300 3800 50  0001 C CNN
 F 3 "" H 4300 3800 50  0001 C CNN
 	1    4300 3800
 	0    -1   -1   0   
