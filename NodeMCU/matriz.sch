@@ -127,17 +127,6 @@ F 3 "" H 6100 5500 50  0001 C CNN
 $EndComp
 NoConn ~ 5750 4200
 $Comp
-L Jumper_NO_Small JP1
-U 1 1 5A08EAB2
-P 4950 6050
-F 0 "JP1" H 4950 6130 50  0000 C CNN
-F 1 "Jp_open_small" H 4960 5990 50  0000 C CNN
-F 2 "Connectors:PINHEAD1-2" H 4950 6050 50  0001 C CNN
-F 3 "" H 4950 6050 50  0001 C CNN
-	1    4950 6050
-	-1   0    0    1   
-$EndComp
-$Comp
 L +5V #PWR01
 U 1 1 5A00823B
 P 3800 2650
@@ -312,12 +301,6 @@ Wire Wire Line
 	3500 2750 3500 2650
 Connection ~ 3800 2750
 Wire Wire Line
-	4150 4500 4050 4500
-Wire Wire Line
-	4050 4500 4050 6050
-Wire Wire Line
-	4050 6050 4850 6050
-Wire Wire Line
 	8350 2500 8350 2750
 Wire Wire Line
 	8150 3050 8850 3050
@@ -338,9 +321,6 @@ Wire Wire Line
 	6600 5750 7550 5750
 Connection ~ 7550 5850
 Connection ~ 7550 5750
-Wire Wire Line
-	5050 6050 7550 6050
-Connection ~ 7550 6050
 Wire Wire Line
 	7550 6150 7800 6150
 Wire Wire Line
@@ -465,4 +445,5 @@ F 3 "" H 7150 3850 50  0001 C CNN
 	1    7150 3850
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4150 4500
 $EndSCHEMATC
