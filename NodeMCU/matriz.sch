@@ -57,13 +57,12 @@ U 1 1 59FF8FB1
 P 4950 4900
 F 0 "U3" H 4950 5750 60  0000 C CNN
 F 1 "NodeMCU1.0(ESP-12E)" H 4950 4050 60  0000 C CNN
-F 2 "ESP8266:NodeMCU1.0(12-E)" H 4350 4050 60  0001 C CNN
+F 2 "lib:NodeMCU1.0(12-E)" H 4350 4050 60  0001 C CNN
 F 3 "" H 4350 4050 60  0000 C CNN
 	1    4950 4900
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5750 4700
-NoConn ~ 5750 4800
 NoConn ~ 4150 4200
 NoConn ~ 4150 4300
 NoConn ~ 4150 4400
@@ -76,10 +75,7 @@ NoConn ~ 4150 5300
 NoConn ~ 4150 5400
 NoConn ~ 5750 5300
 NoConn ~ 5750 5400
-NoConn ~ 5750 5500
 NoConn ~ 5750 5600
-NoConn ~ 4150 5500
-NoConn ~ 4150 5100
 NoConn ~ 4150 4900
 $Comp
 L SW_Push_Open SW1
@@ -126,28 +122,6 @@ F 3 "" H 6100 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 5750 4200
-$Comp
-L +5V #PWR01
-U 1 1 5A00823B
-P 3800 2650
-F 0 "#PWR01" H 3800 2500 50  0001 C CNN
-F 1 "+5V" H 3800 2790 50  0000 C CNN
-F 2 "" H 3800 2650 50  0001 C CNN
-F 3 "" H 3800 2650 50  0001 C CNN
-	1    3800 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG02
-U 1 1 5A090401
-P 3500 2650
-F 0 "#FLG02" H 3500 2725 50  0001 C CNN
-F 1 "PWR_FLAG" H 3500 2800 50  0000 C CNN
-F 2 "" H 3500 2650 50  0001 C CNN
-F 3 "" H 3500 2650 50  0001 C CNN
-	1    3500 2650
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5750 5200
 Text Label 8600 2750 0    60   ~ 0
 GND
@@ -168,17 +142,6 @@ F 1 "Conn_01x05" H 9050 2650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 9050 2950 50  0001 C CNN
 F 3 "" H 9050 2950 50  0001 C CNN
 	1    9050 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG03
-U 1 1 5A09C060
-P 7850 6100
-F 0 "#FLG03" H 7850 6175 50  0001 C CNN
-F 1 "PWR_FLAG" H 7850 6250 50  0000 C CNN
-F 2 "" H 7850 6100 50  0001 C CNN
-F 3 "" H 7850 6100 50  0001 C CNN
-	1    7850 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -224,17 +187,6 @@ F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8830 4550
 F 3 "" H 8900 4550 50  0001 C CNN
 	1    8900 4550
 	-1   0    0    1   
-$EndComp
-$Comp
-L GNDPWR #PWR04
-U 1 1 5A09BA2F
-P 7600 6200
-F 0 "#PWR04" H 7600 6000 50  0001 C CNN
-F 1 "GNDPWR" H 7600 6070 50  0000 C CNN
-F 2 "" H 7600 6150 50  0001 C CNN
-F 3 "" H 7600 6150 50  0001 C CNN
-	1    7600 6200
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R5
@@ -307,8 +259,6 @@ Connection ~ 7600 5600
 Wire Wire Line
 	6850 5600 9650 5600
 Connection ~ 7600 5450
-Wire Wire Line
-	7600 5300 7600 6200
 Wire Wire Line
 	8900 5450 7600 5450
 Connection ~ 7600 5750
@@ -396,11 +346,6 @@ Wire Wire Line
 	8400 3350 8400 3150
 Wire Wire Line
 	9400 3350 8400 3350
-Connection ~ 7600 6150
-Wire Wire Line
-	7850 6150 7850 6100
-Wire Wire Line
-	7600 6150 7850 6150
 Wire Wire Line
 	6600 5750 7600 5750
 Wire Wire Line
@@ -417,11 +362,6 @@ Wire Wire Line
 	8150 3050 8850 3050
 Wire Wire Line
 	8350 2500 8350 2750
-Connection ~ 3800 2750
-Wire Wire Line
-	3500 2750 3500 2650
-Wire Wire Line
-	3800 2750 3500 2750
 Wire Wire Line
 	6350 5000 6350 5400
 Wire Wire Line
@@ -446,6 +386,43 @@ Wire Wire Line
 	8400 3150 8850 3150
 Wire Wire Line
 	7900 2850 8850 2850
+$Comp
+L Conn_01x02 J2
+U 1 1 5A2EF212
+P 3100 2800
+F 0 "J2" H 3100 2900 50  0000 C CNN
+F 1 "Conn_01x02" H 3100 2600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3100 2800 50  0001 C CNN
+F 3 "" H 3100 2800 50  0001 C CNN
+	1    3100 2800
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	3800 2650 3800 2850
+	3800 2850 3800 2700
+Wire Wire Line
+	3800 2700 3300 2700
+Wire Wire Line
+	7600 5300 7600 6200
+Wire Wire Line
+	7600 6200 3300 6200
+Wire Wire Line
+	3300 6200 3300 2800
+Text Label 3400 2700 0    60   ~ 0
+PWR
+Text Label 3300 2800 0    60   ~ 0
+GND
+Wire Wire Line
+	4150 5500 3300 5500
+Connection ~ 3300 5500
+Wire Wire Line
+	5750 5500 5850 5500
+Wire Wire Line
+	5850 4800 5850 6200
+Connection ~ 5850 6200
+Wire Wire Line
+	4150 5100 3300 5100
+Connection ~ 3300 5100
+Wire Wire Line
+	5750 4800 5850 4800
+Connection ~ 5850 5500
 $EndSCHEMATC
