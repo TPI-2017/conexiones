@@ -63,7 +63,6 @@ F 3 "" H 4350 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5750 4700
-NoConn ~ 5750 4800
 NoConn ~ 4150 4200
 NoConn ~ 4150 4300
 NoConn ~ 4150 4400
@@ -76,9 +75,7 @@ NoConn ~ 4150 5300
 NoConn ~ 4150 5400
 NoConn ~ 5750 5300
 NoConn ~ 5750 5400
-NoConn ~ 5750 5500
 NoConn ~ 5750 5600
-NoConn ~ 4150 5100
 NoConn ~ 4150 4900
 $Comp
 L SW_Push_Open SW1
@@ -417,4 +414,15 @@ GND
 Wire Wire Line
 	4150 5500 3300 5500
 Connection ~ 3300 5500
+Wire Wire Line
+	5750 5500 5850 5500
+Wire Wire Line
+	5850 4800 5850 6200
+Connection ~ 5850 6200
+Wire Wire Line
+	4150 5100 3300 5100
+Connection ~ 3300 5100
+Wire Wire Line
+	5750 4800 5850 4800
+Connection ~ 5850 5500
 $EndSCHEMATC
